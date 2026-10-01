@@ -1,0 +1,9 @@
+{
+  "name": "desklog-dev",
+  "version": "0.25.1",
+  "description": "Desklog (dev, appdev.desklog.io): same workflow as the live plugin, for testing against the dev server",
+  "author": {
+    "name": "Desklog Solutions Pvt Ltd",
+    "url": "https://desklog.io"
+  }
+}

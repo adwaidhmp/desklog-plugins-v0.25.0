@@ -1,0 +1,9 @@
+{
+  "name": "desklog",
+  "version": "0.25.1",
+  "description": "Desklog (live, app.desklog.io): run Desklog tasks on your own bot \u2014 ask before starting, corrections stay on the same task, complete only when you approve, with measured token usage",
+  "author": {
+    "name": "Desklog Solutions Pvt Ltd",
+    "url": "https://desklog.io"
+  }
+}

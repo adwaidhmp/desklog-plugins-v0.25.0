@@ -1,0 +1,24 @@
+{
+  "name": "desklog-plugins",
+  "owner": {
+    "name": "Desklog"
+  },
+  "metadata": {
+    "description": "Desklog plugins for Claude Code",
+    "version": "0.25.1"
+  },
+  "plugins": [
+    {
+      "name": "desklog",
+      "source": "./plugins/desklog",
+      "version": "0.25.1",
+      "description": "Desklog live (app.desklog.io): run Desklog tasks on your own bot, ask before starting, complete only when you approve"
+    },
+    {
+      "name": "desklog-dev",
+      "source": "./plugins/desklog-dev",
+      "version": "0.25.1",
+      "description": "Desklog dev (appdev.desklog.io): the same workflow against the dev server, for testing"
+    }
+  ]
+}

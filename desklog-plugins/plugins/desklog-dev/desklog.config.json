@@ -1,0 +1,75 @@
+{
+  "_readme": "Edit this file when your Desklog tool parameters are known. No code changes needed. All matching is case-insensitive.",
+  "fields": {
+    "task_id": [
+      "task_id",
+      "taskId",
+      "id"
+    ],
+    "status": [
+      "status",
+      "status_id",
+      "task_status",
+      "statusId"
+    ],
+    "assignee": [
+      "assignee",
+      "assignee_id",
+      "assignees",
+      "assign_to",
+      "assigned_to",
+      "assigned_user",
+      "assigned_users",
+      "bot_id",
+      "bot_user_id",
+      "bot_user_ids",
+      "members"
+    ],
+    "bot_id_in_response": [
+      "id",
+      "bot_id",
+      "bot_user_id",
+      "user_id"
+    ],
+    "bot_list_keys": [
+      "bot_users",
+      "bots"
+    ],
+    "ignore_nested_keys_containing": [
+      "task"
+    ]
+  },
+  "status_values": {
+    "in_progress": [
+      "in progress",
+      "in_progress",
+      "inprogress",
+      "ongoing",
+      "started",
+      "running",
+      "active"
+    ],
+    "completed": [
+      "completed",
+      "complete",
+      "done",
+      "closed",
+      "finished"
+    ],
+    "paused": [
+      "pause",
+      "paused",
+      "on hold",
+      "hold",
+      "suspended"
+    ]
+  },
+  "usage": {
+    "inject_into_status_call": true,
+    "field": "ai_usage",
+    "include_claude_seconds": true,
+    "max_agent_ids": 50,
+    "partial_ack_field": "ai_partial_confirmed"
+  },
+  "data_dir": "~/.desklog-claude-code-dev"
+}

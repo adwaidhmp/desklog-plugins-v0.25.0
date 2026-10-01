@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "desklog": {
+      "type": "http",
+      "url": "https://app.desklog.io/api/v2/mcp"
+    }
+  }
+}
